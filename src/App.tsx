@@ -1,8 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { useInView } from "./hooks/inview.hook";
 
 function App() {
+  const { isInview } = useInView(".App-link");
   return (
     <div className="App">
       <header className="App-header">
@@ -10,15 +12,17 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+      </header>
+      <div className="container">
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {isInview ? "hey there" : "Learn React"}
         </a>
-      </header>
+      </div>
     </div>
   );
 }
