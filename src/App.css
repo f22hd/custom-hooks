@@ -1,5 +1,4 @@
 .App {
-  background-color: #282c34;
   text-align: center;
   min-height: 100vh;
 }
@@ -16,6 +15,7 @@
 }
 
 .App-header {
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +28,8 @@
 .App-link {
   color: #61dafb;
   transform: color 5s ease-in-out;
+  padding: 20px;
+  margin: 20px auto;
 }
 
 .text-red {
@@ -44,7 +46,6 @@
 }
 
 .container {
-  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
