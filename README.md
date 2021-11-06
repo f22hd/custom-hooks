@@ -1,3 +1,9 @@
+
+# Reference of the hooks
+- [useInView](https://github.com/f22hd/custom-hooks/blob/main/src/hooks/inview.hook.ts)
+
+- [useInfiniteScroll](https://github.com/f22hd/custom-hooks/tree/infinite-scroll)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
